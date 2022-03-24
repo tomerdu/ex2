@@ -64,6 +64,8 @@ nav a
 nav a:hover
 {
     font-weight: bold;
+    opacity: 100%;
+    color:black ;
 }
 
 
@@ -133,6 +135,7 @@ button
 .btn-2
 {
     margin-top: 30px;
+    margin-bottom: 336px;
     color: #458FF6;
     background-color: #FFFFFF;
     border: #458FF6 1px solid;
@@ -164,7 +167,7 @@ button
     color: #7D7987;
 }
 
-.icons
+.icons-1
 {
     display: flex;
     flex-wrap: wrap;
@@ -207,8 +210,6 @@ button
 footer
 {
     width: 100%;
-    height: 425px;
-    margin-top: 335px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 
 }
@@ -254,6 +255,7 @@ footer
     margin-left: 25px;
     font-size: 16px;
     color: #FFFFFF;
+    padding-bottom: 50px;
     
 }
 
@@ -340,6 +342,7 @@ footer
     padding-left: 20px;
     color: #FFFFFF;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .articles
@@ -408,4 +411,13 @@ footer
 {
     font-size: 17px;
     color: #4089ED;
+}
+
+.btn-3
+{
+    margin-top: 30px;
+    margin-bottom: 41px;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border: #458FF6 1px solid;
 }
